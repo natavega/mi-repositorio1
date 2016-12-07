@@ -1,4 +1,12 @@
 body{
-	background-color: red;
-	border: 1px;
-	}
+	background: peru
+}
+
+header{
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	border-bottom: 1px solid gray;
+	align-items: center;
+}
