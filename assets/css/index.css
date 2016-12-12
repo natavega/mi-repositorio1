@@ -2,6 +2,7 @@ body,html{
 	background: peru;
 	font-size: 16px;
 }
+
 /*UTILIDADES*/
 .u-dash{
 	text-align: center;
@@ -39,7 +40,6 @@ body,html{
 		font-size: 3em;
 		text-align: center;
 	}
-
 
 /*ABOUT*/
 	.about{
