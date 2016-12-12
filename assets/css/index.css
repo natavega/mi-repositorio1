@@ -1,12 +1,38 @@
-body{
-	background: peru
+body,html{
+	background: peru;
+	font-size: 16px;
 }
-
-header{
-	background: white;
+/*HEADER*/
+	header{
+		background: white;
+		display: flex;
+		justify-content: space-between;
+		height: 50px;
+		border-bottom: 1px solid gray;
+		align-items: center;
+	}
+/*BANNER*/
+		.banner{
+	background-image: url("https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050");
+	height: 100vh;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #FFFFFF;
 	display: flex;
-	justify-content: space-between;
-	height: 50px;
-	border-bottom: 1px solid gray;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
-}
+		}
+
+	.banner-tittle	{
+		font-size: 4em;
+		}
+
+	banner-subtittle{
+		font-size: 3em;
+		text-align: center;
+	}
+
+/*ABOUT*/
+.about{}
