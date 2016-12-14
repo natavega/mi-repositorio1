@@ -70,3 +70,23 @@ body,html{
 	}
 
 /*WHAT*/
+.what{
+	width: 95%;
+	margin: 0 auto;
+}
+
+ .what-tittle{
+	 font-size: 2.2em;
+	text-align: center;
+ }
+
+.what-contentCols{
+	display: flex;
+}
+
+ .what-contentCols-col{
+	 margin: 0 25px;
+ }
+
+
+
