@@ -5,7 +5,7 @@
 }
 
 /*HEADER*/
-header{
+.header{
 	background: white;
 	display: flex;
 	justify-content: space-between;
@@ -71,6 +71,56 @@ header{
 		display: flex;
 		&-col{
 			margin: 0 25px;
+		}
+	}
+}
+
+// PREMIUM
+.premium{
+
+	width: 95%;
+	margin: 0 auto;
+	&-tittle{
+		font-size: 2.2em;
+		text-align: center
+	}
+	&-text{
+		text-align: center;
+	}
+	&-contentCards{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		&-cards{
+			text-align: center;
+			max-width:32.5%;
+			margin-bottom: 40px;
+			.img{
+				width: 100%;
+			}
+			.subtittle{
+				font-size: 1.25em;
+				font-weight: normal;
+				margin: 10px 0 0;
+				text-align: center;
+			}
+			.tittle{
+				font-size: 1.5em;
+				font-weight: normal;
+				margin: 0;
+			}
+			.contentButtons{
+				button{
+					border: 1px solid grey;
+					border-radius: 15px;
+					background: #FFFFFF;
+					padding: 8px 14px;
+					color: grey;
+					font-size: 0.9em;
+
+
+				}
+			}
 		}
 	}
 }
