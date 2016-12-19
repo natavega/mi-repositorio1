@@ -109,16 +109,23 @@
 				font-weight: normal;
 				margin: 0;
 			}
+			.text{
+				color: #898989;
+				font-size: 0.9em;
+
+			}
 			.contentButtons{
 				button{
-					border: 1px solid grey;
-					border-radius: 15px;
+					border: 1px solid #898989;
+					border-radius: 20px;
 					background: #FFFFFF;
 					padding: 8px 14px;
-					color: grey;
-					font-size: 0.9em;
-
-
+					color:#898989;
+					font-size: 0.8em;
+					&:nth-child(2){
+						background: gray;
+						color: white;
+					}
 				}
 			}
 		}
