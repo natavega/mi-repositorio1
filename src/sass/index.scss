@@ -194,11 +194,46 @@ body, html{
 				font-size: 1.6em;
 			}
 			.subtitle{
-				font-size: 1.2em;
+				font-size: 1em;
+				margin-bottom:15px;
 			}
 			.number{
-				font-size: 1.6em;
+				font-size: 2.2em;
+				color: peru;
+				font-weight: 100;
 			}
 		}
+	}
+}
+
+// FOOTER
+.footer{
+	display: flex;
+	justify-content: space-between;
+	vertical-align: middle;
+	margin-top: 140px;
+	background: #242424;
+	color: #777777;
+	font-size: 0.8em;
+	height: 70px;
+	line-height: 70px;
+	&-list{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		&-item{
+			margin-right: 15px;
+			.link{
+				color:#777777;
+				text-decoration: none;
+				&.hover{
+					color: white;
+				}
+			}
+		}
+	}
+	&-text{
+		margin: 0;
 	}
 }
