@@ -79,3 +79,23 @@
 		}
 	}
 }
+
+@media(max-width:766px) {
+	body, html{
+		font-size: 15px;
+	}
+	.banner{
+		font-size: 0.6em;
+	}
+}
+
+@media(max-width:600px) {
+	// PREMIUM
+	.premium{
+		&-contentCards{
+			&-cards{
+				max-width: 100%;
+			}
+		}
+	}
+}
