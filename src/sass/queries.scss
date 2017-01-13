@@ -47,3 +47,35 @@
 
 }
 
+@media(max-width:767px) {
+
+		// ABOUT
+	.about{
+		&-contentCols{
+			&-col{
+				width: 60%;
+			}
+		}
+	}
+
+	// NUMBERS
+	.Numbers{
+		&-contentCols{
+			flex-direction: column;
+		}
+	}
+
+	// FOOTER
+	.footer{
+		flex-direction: column;
+		text-align: center;
+		height: auto;
+		&-list{
+			display: block;
+		}
+		&-text{
+		}
+		&-contentSocials{
+		}
+	}
+}
